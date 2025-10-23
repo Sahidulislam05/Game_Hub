@@ -1,0 +1,254 @@
+[
+  {
+    "id": "1",
+    "title": "Player Unknown's Battle Ground: PUBG",
+    "coverPhoto": "https://example.com/images/pubg.jpg",
+    "category": "Battle Royale / FPS",
+    "tags": ["Multiplayer", "Action", "Survival"],
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where 100 players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": 4.5,
+    "developer": "Krafton",
+    "releaseYear": 2018,
+    "screenshots": [
+      "https://example.com/images/pubg-1.jpg",
+      "https://example.com/images/pubg-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Android 5.1.1 / iOS 9.0 or later",
+      "ram": "2 GB minimum",
+      "storage": "2 GB free space"
+    }
+  },
+  {
+    "id": "2",
+    "title": "Call of Duty: Warzone",
+    "coverPhoto": "https://example.com/images/cod-warzone.jpg",
+    "category": "FPS / Tactical Shooter",
+    "tags": ["Battle Royale", "War", "Multiplayer"],
+    "downloadLink": "https://www.callofduty.com/warzone",
+    "description": "Warzone brings a massive battleground with up to 150 players, combining tactical gunplay and high-paced action.",
+    "ratings": 4.8,
+    "developer": "Activision",
+    "releaseYear": 2020,
+    "screenshots": [
+      "https://example.com/images/warzone-1.jpg",
+      "https://example.com/images/warzone-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "125 GB free space"
+    }
+  },
+  {
+    "id": "3",
+    "title": "Valorant",
+    "coverPhoto": "https://example.com/images/valorant.jpg",
+    "category": "Tactical Shooter",
+    "tags": ["5v5", "Competitive", "Online"],
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant is a team-based tactical shooter where precise gunplay meets unique agent abilities for intense competitive matches.",
+    "ratings": 4.7,
+    "developer": "Riot Games",
+    "releaseYear": 2020,
+    "screenshots": [
+      "https://example.com/images/valorant-1.jpg",
+      "https://example.com/images/valorant-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 7/10 (64-bit)",
+      "ram": "4 GB",
+      "storage": "10 GB free space"
+    }
+  },
+  {
+    "id": "4",
+    "title": "The Witcher 3: Wild Hunt",
+    "coverPhoto": "https://example.com/images/witcher3.jpg",
+    "category": "RPG / Adventure",
+    "tags": ["Story-rich", "Open World", "Fantasy"],
+    "downloadLink": "https://thewitcher.com/en/witcher3",
+    "description": "Play as Geralt of Rivia, a monster hunter searching for his missing adopted daughter in a war-torn fantasy world.",
+    "ratings": 4.9,
+    "developer": "CD Projekt Red",
+    "releaseYear": 2015,
+    "screenshots": [
+      "https://example.com/images/witcher3-1.jpg",
+      "https://example.com/images/witcher3-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "35 GB free space"
+    }
+  },
+  {
+    "id": "5",
+    "title": "Need for Speed: Heat",
+    "coverPhoto": "https://example.com/images/nfs-heat.jpg",
+    "category": "Racing",
+    "tags": ["Car", "Open World", "Multiplayer"],
+    "downloadLink": "https://www.ea.com/games/need-for-speed/need-for-speed-heat",
+    "description": "Race by day and risk it all by night in Need for Speed Heat, a thrilling street racing experience full of style and adrenaline.",
+    "ratings": 4.3,
+    "developer": "Electronic Arts",
+    "releaseYear": 2019,
+    "screenshots": [
+      "https://example.com/images/nfs-1.jpg",
+      "https://example.com/images/nfs-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "50 GB free space"
+    }
+  },
+  {
+    "id": "6",
+    "title": "Minecraft",
+    "coverPhoto": "https://example.com/images/minecraft.jpg",
+    "category": "Sandbox / Survival",
+    "tags": ["Creative", "Building", "Adventure"],
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft lets players build, explore, and survive in an infinite blocky world full of creativity and imagination.",
+    "ratings": 4.6,
+    "developer": "Mojang Studios",
+    "releaseYear": 2011,
+    "screenshots": [
+      "https://example.com/images/minecraft-1.jpg",
+      "https://example.com/images/minecraft-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 / macOS / Linux",
+      "ram": "4 GB",
+      "storage": "1 GB free space"
+    }
+  },
+  {
+    "id": "7",
+    "title": "Grand Theft Auto V",
+    "coverPhoto": "https://example.com/images/gta5.jpg",
+    "category": "Action / Open World",
+    "tags": ["Story", "Crime", "Adventure"],
+    "downloadLink": "https://www.rockstargames.com/V/",
+    "description": "Grand Theft Auto V offers a massive open world filled with heists, car chases, and three unforgettable characters in Los Santos.",
+    "ratings": 4.9,
+    "developer": "Rockstar Games",
+    "releaseYear": 2013,
+    "screenshots": [
+      "https://example.com/images/gta5-1.jpg",
+      "https://example.com/images/gta5-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "72 GB free space"
+    }
+  },
+  {
+    "id": "8",
+    "title": "Red Dead Redemption 2",
+    "coverPhoto": "https://example.com/images/rdr2.jpg",
+    "category": "Action / Adventure",
+    "tags": ["Story", "Open World", "Wild West"],
+    "downloadLink": "https://www.rockstargames.com/reddeadredemption2/",
+    "description": "Red Dead Redemption 2 tells the story of Arthur Morgan, an outlaw struggling to survive as the Old West fades away.",
+    "ratings": 4.9,
+    "developer": "Rockstar Games",
+    "releaseYear": 2018,
+    "screenshots": [
+      "https://example.com/images/rdr2-1.jpg",
+      "https://example.com/images/rdr2-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "12 GB",
+      "storage": "150 GB free space"
+    }
+  },
+  {
+    "id": "9",
+    "title": "Cyberpunk 2077",
+    "coverPhoto": "https://example.com/images/cyberpunk2077.jpg",
+    "category": "RPG / Sci-Fi",
+    "tags": ["Open World", "Futuristic", "Story"],
+    "downloadLink": "https://www.cyberpunk.net/",
+    "description": "Cyberpunk 2077 is a story-driven open-world RPG set in a dark futuristic city where every decision impacts your destiny.",
+    "ratings": 4.4,
+    "developer": "CD Projekt Red",
+    "releaseYear": 2020,
+    "screenshots": [
+      "https://example.com/images/cyberpunk-1.jpg",
+      "https://example.com/images/cyberpunk-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "70 GB free space"
+    }
+  },
+  {
+    "id": "10",
+    "title": "God of War Ragnarök",
+    "coverPhoto": "https://example.com/images/gow-ragnarok.jpg",
+    "category": "Action / Adventure",
+    "tags": ["Mythology", "Combat", "Story"],
+    "downloadLink": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+    "description": "Kratos and Atreus embark on an epic journey across the Nine Realms in this cinematic Norse adventure filled with gods and monsters.",
+    "ratings": 4.9,
+    "developer": "Santa Monica Studio",
+    "releaseYear": 2022,
+    "screenshots": [
+      "https://example.com/images/gow1.jpg",
+      "https://example.com/images/gow2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "PlayStation 5 / Windows 11 (PC port)",
+      "ram": "8 GB",
+      "storage": "90 GB free space"
+    }
+  },
+  {
+    "id": "11",
+    "title": "Assassin’s Creed Valhalla",
+    "coverPhoto": "https://example.com/images/ac-valhalla.jpg",
+    "category": "Action / RPG",
+    "tags": ["Open World", "Vikings", "Story"],
+    "downloadLink": "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
+    "description": "Become Eivor, a fierce Viking warrior exploring the harsh lands of England in a quest for glory and destiny.",
+    "ratings": 4.6,
+    "developer": "Ubisoft",
+    "releaseYear": 2020,
+    "screenshots": [
+      "https://example.com/images/valhalla-1.jpg",
+      "https://example.com/images/valhalla-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 64-bit",
+      "ram": "8 GB",
+      "storage": "50 GB free space"
+    }
+  },
+  {
+    "id": "12",
+    "title": "Fortnite",
+    "coverPhoto": "https://example.com/images/fortnite.jpg",
+    "category": "Battle Royale / Creative",
+    "tags": ["Multiplayer", "Building", "Shooter"],
+    "downloadLink": "https://www.epicgames.com/fortnite/",
+    "description": "Fortnite blends building, shooting, and creativity in one of the most popular online multiplayer experiences ever made.",
+    "ratings": 4.4,
+    "developer": "Epic Games",
+    "releaseYear": 2017,
+    "screenshots": [
+      "https://example.com/images/fortnite-1.jpg",
+      "https://example.com/images/fortnite-2.jpg"
+    ],
+    "systemRequirements": {
+      "os": "Windows 10 / macOS / PlayStation / Xbox",
+      "ram": "4 GB minimum",
+      "storage": "30 GB free space"
+    }
+  }
+]
