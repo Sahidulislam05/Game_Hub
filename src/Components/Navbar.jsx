@@ -2,7 +2,7 @@ import { use } from "react";
 import { Link, NavLink } from "react-router";
 import { AuthContext } from "../Provider/AuthContext";
 import { toast } from "react-toastify";
-
+import logo from "../assets/logo-preview.png";
 const Navbar = () => {
   const { user, logOut, setUser } = use(AuthContext);
   // console.log(user);
@@ -127,12 +127,14 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <a className=" text-xl font-bold">
-              Game Hub
-              <span className="text-amber-500 font-semibold ">
-                - A Game Library
-              </span>
-            </a>
+            <div className="flex justify-between items-center gap-2">
+              <img
+                className="bg-black w-10 md:w-14 h-10 md:h-14 rounded-xl"
+                src={logo}
+                alt=""
+              />
+              <a className="text-xs md:text-xl font-bold">Game Hub</a>
+            </div>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu-horizontal px-1 space-x-4">{links}</ul>
