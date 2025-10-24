@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Player Unknown's Battle Ground: PUBG",
-    "coverPhoto": "https://example.com/images/pubg.jpg",
+    "coverPhoto": "https://i.ibb.co.com/s9jLBtQD/download.jpg",
     "category": "Battle Royale / FPS",
     "tags": ["Multiplayer", "Action", "Survival"],
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
@@ -23,7 +23,7 @@
   {
     "id": "2",
     "title": "Call of Duty: Warzone",
-    "coverPhoto": "https://example.com/images/cod-warzone.jpg",
+    "coverPhoto": "https://i.ibb.co.com/1fhMcykx/download.jpg",
     "category": "FPS / Tactical Shooter",
     "tags": ["Battle Royale", "War", "Multiplayer"],
     "downloadLink": "https://www.callofduty.com/warzone",
@@ -44,7 +44,7 @@
   {
     "id": "3",
     "title": "Valorant",
-    "coverPhoto": "https://example.com/images/valorant.jpg",
+    "coverPhoto": "https://i.ibb.co.com/VY3nHW24/download.jpg",
     "category": "Tactical Shooter",
     "tags": ["5v5", "Competitive", "Online"],
     "downloadLink": "https://playvalorant.com/",
@@ -65,7 +65,7 @@
   {
     "id": "4",
     "title": "The Witcher 3: Wild Hunt",
-    "coverPhoto": "https://example.com/images/witcher3.jpg",
+    "coverPhoto": "https://i.ibb.co.com/ZwQ5JFT/download.jpg",
     "category": "RPG / Adventure",
     "tags": ["Story-rich", "Open World", "Fantasy"],
     "downloadLink": "https://thewitcher.com/en/witcher3",
@@ -86,7 +86,7 @@
   {
     "id": "5",
     "title": "Need for Speed: Heat",
-    "coverPhoto": "https://example.com/images/nfs-heat.jpg",
+    "coverPhoto": "https://i.ibb.co.com/276pP9c5/download.jpg",
     "category": "Racing",
     "tags": ["Car", "Open World", "Multiplayer"],
     "downloadLink": "https://www.ea.com/games/need-for-speed/need-for-speed-heat",

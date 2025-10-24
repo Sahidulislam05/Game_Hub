@@ -25,7 +25,7 @@ const CarouselComponent = () => {
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full flex-none">
         <img
-          src="https://i.ibb.co.com/1fhMcykx/download.jpg"
+          src="https://i.ibb.co.com/fVgKbY3c/download.jpg"
           className="w-full"
           alt="Slide 1"
         />
