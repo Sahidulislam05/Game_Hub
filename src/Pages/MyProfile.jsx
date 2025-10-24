@@ -9,6 +9,7 @@ const MyProfile = () => {
 
   return (
     <div className="flex items-center justify-center mt-20">
+      <title> My Profile </title>
       <div className="card bg-base-100 w-96 shadow-sm">
         <figure>
           <img className="mt-3" src={user.photoURL} alt="Shoes" />

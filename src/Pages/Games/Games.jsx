@@ -9,6 +9,7 @@ const Games = () => {
   const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
   return (
     <div>
+      <title> Games </title>
       <motion.h1
         className="text-xl md:text-4xl font-bold text-center pt-10"
         initial={{ opacity: 0, scale: 0.5 }}

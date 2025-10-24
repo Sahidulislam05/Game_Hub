@@ -22,11 +22,9 @@ const UpdateProfile = () => {
   };
   return (
     <div className="flex flex-col justify-center items-center mt-20">
+      <title> Update Profile </title>
       <form onSubmit={handleUpdateProfile} className="bg-base-200 rounded-xl">
         <fieldset className="fieldset  border-base-300  w-xs border p-4">
-          {/* <h1 className="text-center font-semibold text-xl">
-            {user.displayName}{" "}
-          </h1> */}
           <label className="label">Name</label>
           <input
             name="name"

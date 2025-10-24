@@ -20,6 +20,7 @@ const ForgetPassword = () => {
   };
   return (
     <div className="flex justify-center items-center mt-20">
+      <title> Forget Password </title>
       <form onSubmit={handleResetPassword}>
         <fieldset className="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
           <h1 className="text-xl font-bold text-center">Forget Password</h1>

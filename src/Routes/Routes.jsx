@@ -10,12 +10,13 @@ import ForgetPassword from "../Pages/ForgetPassword";
 import UpdateProfile from "../Components/UpdateProfile";
 import PrivateRoutes from "../PrivateRoute/PrivateRoutes";
 import Loading from "../Pages/Loading";
+import ErrorPage from "../Components/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement: <p>Error 404 </p>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,

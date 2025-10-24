@@ -12,6 +12,7 @@ const GameDetails = () => {
   const { description, title, ratings, developer } = games || {};
   return (
     <div>
+      <title> Game Details </title>
       <div className=" mt-10 flex flex-col justify-center items-center">
         <div className="card bg-base-100 w-[70%] shadow-sm">
           <figure className="mt-10">
