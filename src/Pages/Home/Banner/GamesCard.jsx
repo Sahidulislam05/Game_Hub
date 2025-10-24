@@ -10,7 +10,11 @@ const GamesCard = ({ apps }) => {
       <Link to={`/games-details/${id}`}>
         <div className="card bg-base-100  shadow-sm">
           <figure>
-            <img src={coverPhoto} alt="Shoes" />
+            <img
+              className="w-2xs h-[200px] mt-3"
+              src={coverPhoto}
+              alt="Shoes"
+            />
           </figure>
           <div className="card-body">
             <h2 className="card-title">{title}</h2>

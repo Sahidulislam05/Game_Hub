@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 const Games = () => {
   const { apps } = useApps();
   //   console.log(apps);
-  const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
+  // const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
   return (
     <div>
       <title> Games </title>
@@ -19,7 +19,7 @@ const Games = () => {
         All Games
       </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-        {sortedAppsList.map((apps) => (
+        {apps.map((apps) => (
           <AllGames apps={apps} key={apps.id}></AllGames>
         ))}
       </div>

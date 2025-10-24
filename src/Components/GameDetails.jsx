@@ -9,19 +9,15 @@ const GameDetails = () => {
   // console.log(apps);
   const games = apps.find((game) => String(game.id) === id);
   // console.log(games);
-  const { description, title, ratings, developer } = games || {};
+  const { description, title, ratings, developer, coverPhoto } = games || {};
   return (
     <div>
       <title> Game Details </title>
       <div className=" mt-10 flex flex-col justify-center items-center">
         <div className="card bg-base-100 w-[70%] shadow-sm">
           <figure className="mt-10">
-            {/* <img src={coverPhoto} alt="Shoes" /> */}
-            <img
-              className="w-96 h-fit rounded p-3"
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes"
-            />
+            <img src={coverPhoto} alt="Shoes" />
+            
           </figure>
           <div className="card-body">
             <h2 className="card-title">{title}</h2>

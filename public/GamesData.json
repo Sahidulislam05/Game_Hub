@@ -128,7 +128,7 @@
   {
     "id": "7",
     "title": "Grand Theft Auto V",
-    "coverPhoto": "https://i.ibb.co.com/3mQ2fCMb/download.jpg",
+    "coverPhoto": "https://i.ibb.co.com/4wLYKn4Z/download.png",
     "category": "Action / Open World",
     "tags": ["Story", "Crime", "Adventure"],
     "downloadLink": "https://www.rockstargames.com/V/",
@@ -149,7 +149,7 @@
   {
     "id": "8",
     "title": "Red Dead Redemption 2",
-    "coverPhoto": "https://i.ibb.co.com/fGBkLRHx/download.jpg",
+    "coverPhoto": "https://i.ibb.co.com/GzB0n6w/download.jpg",
     "category": "Action / Adventure",
     "tags": ["Story", "Open World", "Wild West"],
     "downloadLink": "https://www.rockstargames.com/reddeadredemption2/",
@@ -170,7 +170,7 @@
   {
     "id": "9",
     "title": "Cyberpunk 2077",
-    "coverPhoto": "https://example.com/images/cyberpunk2077.jpg",
+    "coverPhoto": "https://i.ibb.co.com/twj8Bxhx/download.jpg",
     "category": "RPG / Sci-Fi",
     "tags": ["Open World", "Futuristic", "Story"],
     "downloadLink": "https://www.cyberpunk.net/",
@@ -191,7 +191,7 @@
   {
     "id": "10",
     "title": "God of War Ragnarök",
-    "coverPhoto": "https://example.com/images/gow-ragnarok.jpg",
+    "coverPhoto": "https://i.ibb.co.com/LDRfFFrf/download.jpg",
     "category": "Action / Adventure",
     "tags": ["Mythology", "Combat", "Story"],
     "downloadLink": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
@@ -212,7 +212,7 @@
   {
     "id": "11",
     "title": "Assassin’s Creed Valhalla",
-    "coverPhoto": "https://example.com/images/ac-valhalla.jpg",
+    "coverPhoto": "https://i.ibb.co.com/27xMBfzB/download.jpg",
     "category": "Action / RPG",
     "tags": ["Open World", "Vikings", "Story"],
     "downloadLink": "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
@@ -233,7 +233,7 @@
   {
     "id": "12",
     "title": "Fortnite",
-    "coverPhoto": "https://example.com/images/fortnite.jpg",
+    "coverPhoto": "https://i.ibb.co.com/VWJY01sc/download.jpg",
     "category": "Battle Royale / Creative",
     "tags": ["Multiplayer", "Building", "Shooter"],
     "downloadLink": "https://www.epicgames.com/fortnite/",
