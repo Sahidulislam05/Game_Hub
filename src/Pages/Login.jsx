@@ -99,7 +99,7 @@ const Login = () => {
                 </button>
               </fieldset>
             </form>
-
+            {/* divider  */}
             <div className="flex justify-center items-center gap-2">
               <div className="border w-[45%] "></div>
               or

@@ -4,23 +4,23 @@ import Reveal from "../Animation/Reveal";
 const Newsletter = () => {
   return (
     <Reveal>
-      <div className="flex flex-col justify-center items-center my-10">
-        <div className="card lg:card-side bg-base-100 shadow-sm">
+      <div className="flex flex-col justify-center items-center mb-14">
+        <div className="card lg:card-side bg-pink-500/50 shadow-sm">
           <figure>
             <img
-              className="max-w-[500px] p-10"
+              className="md:max-w-[450px] p-10"
               src="https://i.ibb.co.com/N21d0mfP/computer-icons-email-newsletter-png-favpng-n-Pn8-BZ3bfrmv-Ww0-Ny-UXJstman-removebg-preview.png"
               alt="Album"
             />
           </figure>
-          <div className="card-body">
-            <h1 className="text-5xl font-bold text-center py-10">
+          <div className="card-body flex ">
+            <h1 className="text-2xl md:text-5xl font-bold text-center text-black/60 py-10">
               Subscribe to our Newsletter
             </h1>
             <div className="join">
               <label className="input validator join-item">
                 <svg
-                  className="h-[2em] opacity-50"
+                  className="h-[2em] max-w-xs opacity-50"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >

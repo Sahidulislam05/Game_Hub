@@ -11,7 +11,7 @@ const Games = () => {
     <div>
       <title> Games </title>
       <motion.h1
-        className="text-xl md:text-4xl font-bold text-center pt-10"
+        className="text-xl md:text-4xl bg-pink-500/80 text-transparent bg-clip-text font-bold text-center pt-10"
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}

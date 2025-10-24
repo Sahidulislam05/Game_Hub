@@ -95,7 +95,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-base-100 shadow-sm">
+      <div className="bg-purple-500/50 shadow-sm">
         <div className="navbar w-11/12 mx-auto flex justify-between items-center">
           <div className="navbar-start">
             <div className="dropdown">
@@ -136,29 +136,34 @@ const Navbar = () => {
               <a className="text-xs md:text-xl font-bold">Game Hub</a>
             </div>
           </div>
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu-horizontal px-1 space-x-4">{links}</ul>
-          </div>
-          <div className="navbar-end">
-            <div>
-              {user ? (
-                <div className="flex justify-between items-center gap-2">
-                  <div>
-                    <button onClick={handleSignOut} className="btn btn-accent">
-                      Log Out
-                    </button>
+          <div className="flex justify-between items-center">
+            <div className="hidden lg:flex">
+              <ul className="menu-horizontal px-1 space-x-4">{links}</ul>
+            </div>
+            <div className="ml-2">
+              <div>
+                {user ? (
+                  <div className="flex justify-between items-center gap-1">
+                    <div>
+                      <button
+                        onClick={handleSignOut}
+                        className="btn btn-accent"
+                      >
+                        Log Out
+                      </button>
+                    </div>
+                    <Link to="/my-profile" className="w-10 rounded-full">
+                      <img
+                        className="w-10 h-10 rounded-full"
+                        alt="Not found"
+                        src={user.photoURL}
+                      />
+                    </Link>
                   </div>
-                  <Link to="/my-profile" className="w-10 rounded-full">
-                    <img
-                      className="w-10 h-10 rounded-full"
-                      alt="Not found"
-                      src={user.photoURL}
-                    />
-                  </Link>
-                </div>
-              ) : (
-                ""
-              )}
+                ) : (
+                  ""
+                )}
+              </div>
             </div>
           </div>
         </div>

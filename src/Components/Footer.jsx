@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+      <footer className="footer footer-horizontal footer-center bg-black/80 text-white rounded p-10">
         <nav className="grid grid-flow-col gap-4 ">
           <Link className="link link-hover" to="/">
             Home
@@ -12,7 +12,9 @@ const Footer = () => {
             Games
           </Link>
           <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
+          <Link className="link link-hover" to="/login">
+            Login
+          </Link>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
