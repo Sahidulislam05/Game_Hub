@@ -107,7 +107,7 @@
   {
     "id": "6",
     "title": "Minecraft",
-    "coverPhoto": "https://example.com/images/minecraft.jpg",
+    "coverPhoto": "https://i.ibb.co.com/fzJK2s9V/download.jpg",
     "category": "Sandbox / Survival",
     "tags": ["Creative", "Building", "Adventure"],
     "downloadLink": "https://www.minecraft.net/",
@@ -128,7 +128,7 @@
   {
     "id": "7",
     "title": "Grand Theft Auto V",
-    "coverPhoto": "https://example.com/images/gta5.jpg",
+    "coverPhoto": "https://i.ibb.co.com/3mQ2fCMb/download.jpg",
     "category": "Action / Open World",
     "tags": ["Story", "Crime", "Adventure"],
     "downloadLink": "https://www.rockstargames.com/V/",
@@ -149,7 +149,7 @@
   {
     "id": "8",
     "title": "Red Dead Redemption 2",
-    "coverPhoto": "https://example.com/images/rdr2.jpg",
+    "coverPhoto": "https://i.ibb.co.com/fGBkLRHx/download.jpg",
     "category": "Action / Adventure",
     "tags": ["Story", "Open World", "Wild West"],
     "downloadLink": "https://www.rockstargames.com/reddeadredemption2/",
