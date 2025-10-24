@@ -2,14 +2,21 @@ import React from "react";
 import useApps from "../../Hooks/useApps";
 import AllGames from "./AllGames";
 import { Link } from "react-router";
-
+import { motion } from "motion/react";
 const Games = () => {
   const { apps } = useApps();
   //   console.log(apps);
   const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center pt-10">All Games</h1>
+      <motion.h1
+        className="text-xl md:text-4xl font-bold text-center pt-10"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        All Games
+      </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
         {sortedAppsList.map((apps) => (
           <AllGames apps={apps} key={apps.id}></AllGames>

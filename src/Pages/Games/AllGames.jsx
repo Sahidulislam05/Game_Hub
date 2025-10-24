@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router";
+import Reveal from "../../Animation/Reveal";
 
 const AllGames = ({ apps }) => {
   // console.log(apps)
   const { description, title, ratings, developer, id } = apps;
   return (
-    <div>
+    <Reveal>
       <Link to={`/games-details/${id}`}>
         <div className="card bg-base-100  shadow-sm">
           <figure>
@@ -25,7 +26,7 @@ const AllGames = ({ apps }) => {
           </div>
         </div>
       </Link>
-    </div>
+    </Reveal>
   );
 };
 

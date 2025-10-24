@@ -7,7 +7,7 @@ import Loading from "../Pages/Loading";
 const MainLayout = () => {
   const { state } = useNavigation();
   return (
-    <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2]">
+    <div className="bg-base-300">
       <nav>
         <Navbar></Navbar>
       </nav>

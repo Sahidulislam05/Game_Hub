@@ -9,20 +9,25 @@ const Home = () => {
   const popularAppsData = gamesData.slice(0, 8);
   return (
     <div className="mt-12">
-      <div className="text-center font-bold pb-10 overflow-hidden relative text-amber-400">
-        <motion.h1 className="hidden md:block"
-          animate={{
-            scale: 2,
-            transition: { duration: 2 },
-          }}
+      <div className="text-center pb-10 overflow-hidden relative text-amber-400">
+        <motion.h1
+          className="text-xl md:text-2xl font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text inline-block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
         >
           Welcome to Gamehub - A Game Library
         </motion.h1>
-        <h1 className="md:hidden">Welcome to Gamehub - A Game Library</h1>
       </div>
 
       {/* Slider  */}
-      <CarouselComponent></CarouselComponent>
+      <motion.main
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        <CarouselComponent></CarouselComponent>
+      </motion.main>
       {/* Popular Games  */}
       <PopularGames popularAppsData={popularAppsData}></PopularGames>
       {/* News letter */}
