@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-
+import "./Slider.css";
 const CarouselComponent = () => {
   const carouselRef = useRef(null);
 
@@ -20,7 +20,7 @@ const CarouselComponent = () => {
   return (
     <div
       ref={carouselRef}
-      className="carousel w-full max-h-[500px] overflow-x-auto flex rounded-xl"
+      className="carousel w-full max-h-[500px] overflow-x-auto flex rounded-xl border-3 animate-border-color"
     >
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full flex-none">

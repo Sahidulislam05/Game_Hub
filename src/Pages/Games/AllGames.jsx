@@ -8,7 +8,7 @@ const AllGames = ({ apps }) => {
   return (
     <Reveal>
       <Link to={`/games-details/${id}`}>
-        <div className="card bg-base-100  shadow-sm">
+        <div className="card bg-base-200 border shadow-sm">
           <figure>
             <img
               className="w-2xs h-[200px] mt-3"

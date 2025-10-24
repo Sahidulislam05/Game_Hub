@@ -32,21 +32,23 @@ const GameDetails = () => {
             <h2 className="font-semibold">Category: {category}</h2>
             <p> Release Year: {releaseYear}</p>
             <p>{description}</p>
-            <h1>
-              Download Link :
+            <div className="md:flex flex-col md:flex-row gap-2 hidden  ">
+              <h1>Download Link :</h1>
               <a
                 href={downloadLink}
                 target="_blank"
-                className="underline cursor-pointer text-red-400 ml-2"
+                className="underline cursor-pointer text-red-500"
               >
                 {downloadLink}
               </a>
-            </h1>
+            </div>
 
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Rating: {ratings}</div>
-              <div className="badge badge-outline">
-                Developed by: {developer}
+              <div className="flex flex-col md:flex-row gap-2">
+                <div className="badge md:badge-outline">Rating: {ratings}</div>
+                <div className="badge md:badge-outline">
+                  Developed by: {developer}
+                </div>
               </div>
             </div>
           </div>
