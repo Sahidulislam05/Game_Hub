@@ -8,10 +8,10 @@ const Games = () => {
   //   console.log(apps);
   // const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
   return (
-    <div>
+    <div className="w-11/12 mx-auto mt-5 md:mt-10">
       <title> Games </title>
       <motion.h1
-        className="text-xl md:text-4xl bg-pink-500/80 text-transparent bg-clip-text font-bold text-center pt-10"
+        className="text-xl md:text-4xl bg-pink-500/80 text-transparent bg-clip-text font-bold text-center "
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}

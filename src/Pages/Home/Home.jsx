@@ -9,7 +9,7 @@ const Home = () => {
   const popularAppsData = gamesData.slice(0, 8);
 
   return (
-    <div className="mt-8 md:mt-12 px-4 sm:px-6 lg:px-10">
+    <div className="w-11/12 mx-auto mt-5 md:mt-10">
       <title>Home</title>
 
       <motion.section

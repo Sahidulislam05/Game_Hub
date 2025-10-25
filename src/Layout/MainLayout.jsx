@@ -16,7 +16,7 @@ const MainLayout = () => {
         <Navbar />
       </nav>
 
-      <main className="min-h-screen w-11/12 mx-auto">
+      <main className="min-h-screen">
         {state === "loading" ? <Loading /> : <Outlet />}
       </main>
 
