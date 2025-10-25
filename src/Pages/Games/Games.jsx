@@ -1,12 +1,15 @@
-import React from "react";
 import useApps from "../../Hooks/useApps";
 import AllGames from "./AllGames";
 import { Link } from "react-router";
 import { motion } from "motion/react";
+import Loading from "../Loading";
 const Games = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
   //   console.log(apps);
   // const sortedAppsList = [...apps].sort((a, b) => b.ratings - a.ratings);
+  if (loading) {
+    return <Loading></Loading>;
+  }
   return (
     <div className="w-11/12 mx-auto mt-5 md:mt-10">
       <title> Games </title>

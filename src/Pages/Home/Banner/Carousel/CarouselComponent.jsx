@@ -25,7 +25,7 @@ const CarouselComponent = () => {
       {/* Slide 1 */}
       <div id="slide1" className="carousel-item relative w-full flex-none">
         <img
-          src="https://i.ibb.co.com/fVgKbY3c/download.jpg"
+          src="https://i.ibb.co.com/PZkQ81PN/pubg-go20ghrcj4ybxhvq.jpg"
           className="w-full"
           alt="Slide 1"
         />
@@ -50,7 +50,7 @@ const CarouselComponent = () => {
       {/* Slide 2 */}
       <div id="slide2" className="carousel-item relative w-full flex-none">
         <img
-          src="https://i.ibb.co.com/VY3nHW24/download.jpg"
+          src="https://i.ibb.co.com/cSr4KrLg/1868809-3840x2160-desktop-4k-valorant-wallpaper-image.jpg"
           className="w-full"
           alt="Slide 2"
         />
@@ -75,7 +75,7 @@ const CarouselComponent = () => {
       {/* Slide 3 */}
       <div id="slide3" className="carousel-item relative w-full flex-none">
         <img
-          src="https://i.ibb.co.com/VWGyvz9x/download.jpg"
+          src="https://i.ibb.co.com/1G2bNp69/call-of-duty-mobile-android-games-ios-games-3440x1440-778.jpg"
           className="w-full"
           alt="Slide 3"
         />
@@ -100,7 +100,7 @@ const CarouselComponent = () => {
       {/* Slide 4 */}
       <div id="slide4" className="carousel-item relative w-full flex-none">
         <img
-          src="https://i.ibb.co.com/ZwQ5JFT/download.jpg"
+          src="https://i.ibb.co.com/WNJzxctQ/gta-5-qpjtjdxwbwrk4gyj.jpg"
           className="w-full"
           alt="Slide 4"
         />
