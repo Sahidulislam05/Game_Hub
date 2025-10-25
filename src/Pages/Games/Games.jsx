@@ -18,7 +18,7 @@ const Games = () => {
       >
         All Games
       </motion.h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 items-stretch">
         {apps.map((apps) => (
           <AllGames apps={apps} key={apps.id}></AllGames>
         ))}

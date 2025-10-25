@@ -6,16 +6,22 @@ import Loading from "../Pages/Loading";
 
 const MainLayout = () => {
   const { state } = useNavigation();
+
   return (
-    <div className="bg-[#CFF0DC]">
-      <nav>
-        <Navbar></Navbar>
+    <div
+      className="min-h-screen flex flex-col bg-linear-to-b from-blue-50 via-blue-100 to-blue-200
+        transition-colors duration-500"
+    >
+      <nav className="shadow-md">
+        <Navbar />
       </nav>
+
       <main className="min-h-screen w-11/12 mx-auto">
-        {state === "loading" ? <Loading></Loading> : <Outlet></Outlet>}
+        {state === "loading" ? <Loading /> : <Outlet />}
       </main>
-      <footer>
-        <Footer></Footer>
+
+      <footer className="mt-auto">
+        <Footer />
       </footer>
     </div>
   );
