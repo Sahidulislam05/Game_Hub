@@ -14,7 +14,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "border-b-2 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text border-purple-500 font-bold"
-              : "font-semibold text-gray-800 "
+              : "font-semibold"
           }
           to="/"
         >
@@ -26,7 +26,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             isActive
               ? "border-b-2 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text border-purple-500 font-bold"
-              : "font-semibold text-gray-800 "
+              : "font-semibold"
           }
           to="/games"
         >
@@ -40,7 +40,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "border-b-2 bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text border-purple-500 font-bold"
-                  : "font-semibold text-gray-800 "
+                  : "font-semibold"
               }
               to="/login"
             >
@@ -52,7 +52,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "border-b-2 bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text border-purple-500 font-bold"
-                  : "font-semibold text-gray-800 "
+                  : "font-semibold"
               }
               to="/register"
             >
