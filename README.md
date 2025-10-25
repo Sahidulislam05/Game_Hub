@@ -2,8 +2,9 @@
 
 [![React](https://img.shields.io/badge/React-18.0+-blue?logo=react)](https://reactjs.org/)  
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0+-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)  
+[![Motion.dev](https://img.shields.io/badge/Animations-Motion.dev-pink?logo=framer)](https://motion.dev/)  
 [![Firebase Hosting](https://img.shields.io/badge/Hosted_on-Firebase-orange?logo=firebase)](https://firebase.google.com/)  
-[![Netlify Status](https://img.shields.io/badge/Hosted_on-Netlify-blue?logo=netlify)](https://www.netlify.com/)
+[![Netlify Status](https://img.shields.io/badge/Hosted_on-Netlify-blue?logo=netlify)](https://www.netlify.com/)  
 [![License](https://img.shields.io/badge/License-MIT-green)](#)
 
 > ### **GameHub** — an engaging online game library built with React, Tailwind CSS, and Firebase. Discover, explore, and support indie game developers in a visually immersive environment.
@@ -13,6 +14,8 @@
 ## 🌐 Live Demo
 
 🔗 **Visit Now:** [https://game-hub-a7422.web.app/](https://game-hub-a7422.web.app/)
+
+🔗 **Visit Now:** [https://game-hub-project-2025.netlify.app/](https://game-hub-project-2025.netlify.app/)
 
 ---
 

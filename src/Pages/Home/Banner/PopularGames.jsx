@@ -9,9 +9,6 @@ const PopularGames = ({ popularAppsData }) => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center pt-10 text-blue-500/70">
-        Popular Games
-      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 items-stretch ">
         {sortedApps.map((apps) => (
           <GamesCard key={apps.id} apps={apps}></GamesCard>
