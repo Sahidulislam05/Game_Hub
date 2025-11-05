@@ -107,9 +107,7 @@ const Navbar = () => {
             alt="Logo"
             className="w-10 md:w-14 h-10 md:h-14 rounded-xl"
           />
-          <span className="font-bold text-lg md:text-2xl text-gray-900">
-            Game Hub
-          </span>
+          <span className="font-bold text-lg md:text-2xl">Game Hub</span>
         </Link>
 
         <div className="flex items-center gap-4">
